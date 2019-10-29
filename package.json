@@ -1,0 +1,23 @@
+{
+  "name": "callbacks",
+  "version": "0.0.0",
+  "description": "Node.js Addons Example #3",
+  "main": "addon.js",
+  "private": true,
+  "gypfile": true,
+  "scripts": {
+    "start": "node addon.js",
+    "rebuild:dev": "node-gyp rebuild --debug",
+    "build:dev": "node-gyp build --debug",
+    "clean": "node-gyp clean"
+  },
+  "devDependencies": {
+    "electron": "^1.8.8",
+    "electron-rebuild": "^1.8.5",
+    "node-gyp": "^3.7.0"
+  },
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.0.0"
+  }
+}
