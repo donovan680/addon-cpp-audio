@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <nan.h>
 #include <regex>
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include <stdio.h>
 #pragma comment(lib, "winmm.lib")
 
